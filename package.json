@@ -1,0 +1,26 @@
+{
+  "name": "web-forum",
+  "version": "1.0.0",
+  "description": "fullstack web-forum app.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[",
+  "main": "./",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matevsh/web-forum.git"
+  },
+  "keywords": [
+    "forum"
+  ],
+  "author": "@matevsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matevsh/web-forum/issues"
+  },
+  "homepage": "https://github.com/matevsh/web-forum#readme",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-plugin-react": "^7.31.10"
+  }
+}
