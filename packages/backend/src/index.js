@@ -6,9 +6,9 @@ dotenv.config();
 
 const app = express();
 
-app.use(router);
+app.use('/api', router);
 
 const {PORT} = process.env;
 app.listen(PORT, () => {
-    console.log(`Backend currently listening on ${PORT}`);
+    console.log(`Backend currently listening on http://localhost:${PORT}`);
 });

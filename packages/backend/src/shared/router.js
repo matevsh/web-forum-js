@@ -1,9 +1,8 @@
-import {Router} from 'express';
+import { Router } from 'express';
+import providerRouter from '../provider/router.js';
 
-const mainRouter = Router();
+const router = Router();
 
-mainRouter.get('/render', (req, res) => {
-    res.send('Hello world!');
-});
+router.use('/data', providerRouter);
 
-export default mainRouter;
+export default router;
